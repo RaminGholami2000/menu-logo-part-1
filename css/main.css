@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.icons>.icon{
+    width: 350px;
+    height: 350px;
+    background-color: #2b2b2b;
+    text-align: center;
+    line-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons>.icon:nth-of-type(4){
+    position: relative;
+}
+.icons>.icon>.fa-bars{
+    font-size: 35px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 300ms;
+}
+.icons>.icon>.logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.icons>.icon>.logo>.fa-bars{
+    font-size: 35px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.icons>.icon:nth-of-type(5)>.logo{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.icons>.icon:nth-of-type(8)>.logo{
+    transition: 500ms;
+}
+.icons>.icon:nth-of-type(3)>.logo{
+    position: relative;
+}
+.icons>.icon>.logo>.line{
+    width: 35px;
+    height: 5px;
+    border-radius: 2px;
+    display: block;
+    background-color: whitesmoke;
+    transition: 1000ms;
+    
+}
+.icons>.icon:nth-of-type(5)>.logo>.line{
+    width: 50px;
+    height: 2px;
+    border-radius: 5px;
+    display: block;
+    background-color: whitesmoke;
+    transition: 1000ms;
+    
+}
+.icon:nth-of-type(4)>.fa-xmark{
+    font-size: 35px;
+    color: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 163px;
+    transform: scale(0);
+    transition: 700ms;
+    cursor: pointer;
+}
+.icon:nth-of-type(7){
+    position: relative;
+}
+.icon:nth-of-type(7)>.logo{
+    z-index: 1000;
+}
+.icon:nth-of-type(7)>.fa-xmark{
+    font-size: 35px;
+    color: whitesmoke;
+    position: absolute;
+    top: 160px;
+    left: 163px;
+    transition: 700ms;
+    cursor: pointer;
+    opacity: 0;
+}
+.icon>.logo>.fa-xmark{
+    font-size: 40px;
+    position: absolute;
+    opacity: 0;
+    color: whitesmoke;
+    transition: 600ms;
+}
+.icon:nth-of-type(5)>.logo>.fa-bars{
+    transition: 900ms;
+}
+.rotate-90{
+    transform: rotate(90deg) !important;
+transition: 300ms !important;
+}
+.opacity{
+    opacity: 0 !important;
+    transition: 200ms;
+}
+.translated-n{
+    transform: translateY(-10px) !important;
+    transition: 1000ms;
+}
+.translated-p{
+    transform: translateY(10px) !important;
+    transition: 1000ms;
+}
+.translatex-p{
+    transform:translateX(100px) !important; 
+    opacity: 0 !important;
+    transition: 800ms;
+}
+.translatex-n{
+    transform:translateX(-100px) !important; 
+    opacity: 0 !important;
+    transition: 800ms;
+}
+.scale0{
+    transform: scale(0) !important;
+    transition: 700ms;
+}
+.scale1{
+    transform: scale(1) !important;
+    transition: 800ms;
+}
+.scale-05{
+    transform: scaleX(0.5) !important;
+    transition: 400ms !important ;
+}
+.scale-08{
+    transform: scale(0.8) !important;
+    transition: 400ms !important;
+}
+.rotate-Y{
+    transform: rotateY(180deg)!important;
+    opacity: 0 !important;
+    transition: 600ms !important;
+}
+.rotate-Ypro{
+    transform: rotateY(180deg)!important;
+    opacity: 100 !important;
+    transition: 900ms !important;
+}
+.rotate-360{
+    transform: rotate(360deg) !important;
+    opacity: 0 !important;
+    transition: 800ms;
+}
+.rotate-360pro{
+    transform: rotate(360deg) !important;
+    opacity: 100% !important;
+    transition: 800ms;
+}
+
+.rotate--90{
+    transform: rotate(-90deg) !important;
+    transition: 500ms;
+}
+.scale-05y{
+    transform: scaleX(0.3) !important;
+    transition: 1000ms !important;
+    background-color: gold !important;
+}
+.rotate--30{
+    transform: rotate(-40deg) !important;
+}
+.rotate-30{
+    transform: rotate(32deg) !important;
+}
+
+div.icon>p{
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
